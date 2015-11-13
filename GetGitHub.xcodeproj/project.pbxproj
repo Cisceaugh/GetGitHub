@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C164942C1BF422360039C195 /* GithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164942B1BF422360039C195 /* GithubService.swift */; };
+		C164942E1BF428530039C195 /* Respository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164942D1BF428530039C195 /* Respository.swift */; };
+		C16494301BF4294F0039C195 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164942F1BF4294F0039C195 /* Owner.swift */; };
+		C16494321BF43DF00039C195 /* ModelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16494311BF43DF00039C195 /* ModelExtensions.swift */; };
+		C1CD0D4F1BF5304900970A88 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD0D4E1BF5304900970A88 /* User.swift */; };
+		C1CD0D511BF532EB00970A88 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD0D501BF532EB00970A88 /* API.swift */; };
+		C1CD0D541BF5335700970A88 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD0D531BF5335700970A88 /* APIRequest.swift */; };
+		C1CD0D561BF5350300970A88 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD0D551BF5350300970A88 /* Extensions.swift */; };
+		C1CD0D591BF53B1F00970A88 /* GETRepositoriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD0D581BF53B1F00970A88 /* GETRepositoriesRequest.swift */; };
+		C1CD0D5B1BF53D1100970A88 /* GETUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD0D5A1BF53D1100970A88 /* GETUser.swift */; };
+		C1CD0D5D1BF53D7700970A88 /* POST.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD0D5C1BF53D7700970A88 /* POST.swift */; };
 		C1D9F2D11BF1769D00485E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D9F2D01BF1769D00485E94 /* AppDelegate.swift */; };
 		C1D9F2D31BF1769D00485E94 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D9F2D21BF1769D00485E94 /* HomeViewController.swift */; };
 		C1D9F2D61BF1769D00485E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D9F2D41BF1769D00485E94 /* Main.storyboard */; };
@@ -37,6 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C164942B1BF422360039C195 /* GithubService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
+		C164942D1BF428530039C195 /* Respository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Respository.swift; sourceTree = "<group>"; };
+		C164942F1BF4294F0039C195 /* Owner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		C16494311BF43DF00039C195 /* ModelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelExtensions.swift; sourceTree = "<group>"; };
+		C1CD0D4E1BF5304900970A88 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C1CD0D501BF532EB00970A88 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C1CD0D531BF5335700970A88 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		C1CD0D551BF5350300970A88 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C1CD0D581BF53B1F00970A88 /* GETRepositoriesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GETRepositoriesRequest.swift; sourceTree = "<group>"; };
+		C1CD0D5A1BF53D1100970A88 /* GETUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GETUser.swift; sourceTree = "<group>"; };
+		C1CD0D5C1BF53D7700970A88 /* POST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POST.swift; sourceTree = "<group>"; };
 		C1D9F2CD1BF1769D00485E94 /* GetGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D9F2D01BF1769D00485E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1D9F2D21BF1769D00485E94 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +102,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1CD0D521BF5334000970A88 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C1CD0D501BF532EB00970A88 /* API.swift */,
+				C1CD0D531BF5335700970A88 /* APIRequest.swift */,
+				C1CD0D551BF5350300970A88 /* Extensions.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		C1CD0D571BF5399C00970A88 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				C1CD0D581BF53B1F00970A88 /* GETRepositoriesRequest.swift */,
+				C1CD0D5A1BF53D1100970A88 /* GETUser.swift */,
+				C1CD0D5C1BF53D7700970A88 /* POST.swift */,
+			);
+			name = Calls;
+			sourceTree = "<group>";
+		};
 		C1D9F2C41BF1769C00485E94 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				C1D9F2D01BF1769D00485E94 /* AppDelegate.swift */,
+				C1CD0D521BF5334000970A88 /* API */,
+				C1CD0D571BF5399C00970A88 /* Calls */,
 				C1D9F3061BF39A6400485E94 /* Controller */,
 				C1D9F3071BF39A7200485E94 /* Model */,
 				C1D9F3051BF39A5E00485E94 /* View */,
@@ -154,6 +198,11 @@
 			isa = PBXGroup;
 			children = (
 				C1D9F3081BF39B1500485E94 /* OAuthClient.swift */,
+				C164942B1BF422360039C195 /* GithubService.swift */,
+				C164942D1BF428530039C195 /* Respository.swift */,
+				C164942F1BF4294F0039C195 /* Owner.swift */,
+				C1CD0D4E1BF5304900970A88 /* User.swift */,
+				C16494311BF43DF00039C195 /* ModelExtensions.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -289,10 +338,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CD0D511BF532EB00970A88 /* API.swift in Sources */,
 				C1D9F3041BF2BC6300485E94 /* OAuthViewController.swift in Sources */,
+				C16494301BF4294F0039C195 /* Owner.swift in Sources */,
+				C164942C1BF422360039C195 /* GithubService.swift in Sources */,
+				C164942E1BF428530039C195 /* Respository.swift in Sources */,
+				C16494321BF43DF00039C195 /* ModelExtensions.swift in Sources */,
+				C1CD0D591BF53B1F00970A88 /* GETRepositoriesRequest.swift in Sources */,
 				C1D9F2D31BF1769D00485E94 /* HomeViewController.swift in Sources */,
 				C1D9F2D91BF1769D00485E94 /* GetGitHub.xcdatamodeld in Sources */,
+				C1CD0D5B1BF53D1100970A88 /* GETUser.swift in Sources */,
+				C1CD0D561BF5350300970A88 /* Extensions.swift in Sources */,
+				C1CD0D5D1BF53D7700970A88 /* POST.swift in Sources */,
 				C1D9F2D11BF1769D00485E94 /* AppDelegate.swift in Sources */,
+				C1CD0D4F1BF5304900970A88 /* User.swift in Sources */,
+				C1CD0D541BF5335700970A88 /* APIRequest.swift in Sources */,
 				C1D9F3091BF39B1500485E94 /* OAuthClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +580,7 @@
 				C1D9F2FA1BF1769D00485E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1D9F2FB1BF1769D00485E94 /* Build configuration list for PBXNativeTarget "GetGitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +589,7 @@
 				C1D9F2FD1BF1769D00485E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1D9F2FE1BF1769D00485E94 /* Build configuration list for PBXNativeTarget "GetGitHubUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +598,7 @@
 				C1D9F3001BF1769D00485E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

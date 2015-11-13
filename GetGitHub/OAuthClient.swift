@@ -27,7 +27,6 @@ enum SaveOptions: Int {
 
 class OAuthClient {
     
-    let kAccessTokenKey = "kAccessTokenKey"
     let kClientId = "9b6bfd768b1b45b675fa"
     let kClientSecret = "a525edcfb8ee9e5c07d3e2e9b4657c3592488442"
 

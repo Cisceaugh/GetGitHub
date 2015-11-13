@@ -20,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
         OAuthClient.shared.tokenRequestWithCallback(url, options: SaveOptions.UserDefaults) { (success) -> () in
             print("Token here")
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let controller = storyboard.instantiateInitialViewController()
+            self.window!.rootViewController = controller
         }
         return true
     }
@@ -27,7 +30,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        do{
+            try OAuthClient.shared.accessToken()
+        }
+        catch _  {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let controller = storyboard.instantiateViewControllerWithIdentifier("LoginViewController")
+            window!.rootViewController = controller
+        }
+        
         return true
     }
 
